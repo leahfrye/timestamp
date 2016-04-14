@@ -5,7 +5,7 @@ var express = require('express'),
     mongo = require('mongodb').MongoClient;
 
 var app = express();
-var mongoURI = process.env.MONGOLAB_URI || process.env.MONGO_URI;
+var mongoURI = process.env.MONGODB_URI || process.env.MONGO_URI;
 
 mongo.connect(mongoURI || 'mongodb://localhost:27017/clementinejs', function (err, db) {
 
