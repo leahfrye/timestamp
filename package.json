@@ -1,5 +1,5 @@
 {
-  "name": "damp-dusk-37374",
+  "name": "timestamp",
   "version": "1.0.0",
   "description": "timestamp microservice",
   "main": "server.js",

@@ -18,7 +18,6 @@ function TimestampHandler () {
     }
     else if (dateToUnix === 'NaN') {
 			res.json({'unix': null, 'regular': null});
-
     }
 		else {
 			  res.json({'unix': dateToUnix, 'regular': input});
