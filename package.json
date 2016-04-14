@@ -1,15 +1,29 @@
 {
-  "name": "timestamp",
+  "name": "timestamp9479",
   "version": "1.0.0",
-  "description": "",
+  "description": "timestamp microservice",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Leah <lefrye@nps.edu>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
     "mongodb": "^2.1.16"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leahfrye/timestamp.git"
+  },
+  "keywords": [
+    "unix",
+    "timestamp"
+  ],
+  "bugs": {
+    "url": "https://github.com/leahfrye/timestamp/issues"
+  },
+  "homepage": "https://github.com/leahfrye/timestamp#readme"
 }
