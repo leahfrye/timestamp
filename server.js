@@ -20,7 +20,7 @@ mongo.connect(mongoURI || 'mongodb://localhost:27017/clementinejs', function (er
 
     routes(app, db);
 
-    app.listen(process.env.PORT || <default port>, function () {
+    app.listen(process.env.PORT || 3000, function () {
         console.log('Listening on port 3000...');
     });
 
